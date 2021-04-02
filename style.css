@@ -1,0 +1,388 @@
+#body{
+    display: flex;
+    width: 70%;
+    height: auto;
+}
+main{
+    display:flex;
+    
+}
+#first_section{
+    display: flex;
+    background-color:#0095ff6b;
+}
+#ninjastudio_div{
+    height: 100px;
+    width: 50%;
+    display: flex;
+}
+#Favourite{
+    text-align: right;
+    margin: 50px;
+}
+
+.ninjastudio{
+    height: 100%;
+    width: 100px;
+    padding-left:20px;
+    border-radius: 50%;
+}
+/*right div*/
+#right_div{
+    width: 50%;
+    height: 100px;
+    align-items: right;
+    display: flex;
+}
+
+/*#search_icon_div{
+    width: 60%;
+    display: flex;
+    position: relative;
+}*/
+#search_icon_div{
+    height: 50px;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 20%;
+    display: flex;
+    margin-top: 30px;
+}
+.size_big{
+    height: 30px;
+    width: 30px;
+}
+.search{
+   margin-left:20px;
+   margin-top: 20px;
+}
+.microphone{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+/*#search_icon{
+    padding-top: 30px;
+    width: 370px;
+    border-radius: 30px;
+    border-width: 2px;
+    height: 20px;
+    position: relative;
+
+}
+*/
+#search_icon{
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    margin-left: 40px;
+}
+#search_icon {
+    font-size: 30px;
+    left: 30px;
+}
+
+
+/*new released section*/
+content{
+    width: 70%;
+    background-color: rgb(233, 209, 223);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#new_released_div{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+#new_released_div img{
+    width: 235px;
+    margin-top: 30px;
+}
+#different{
+ /*   height: 132px;*/
+}
+.img1{
+    z-index: 0;
+    position: relative;
+    left:50px;
+}
+.img2{
+    height:172px;
+    z-index: 1;
+    position: relative;
+}
+.img3{
+    z-index: 0;
+    position: relative;
+    right:50px;
+}
+.img1:hover{
+    z-index: 2;
+    height:200px;
+    width: 300px;
+    box-shadow:5px 10px 8px 10px #888888;
+    /* position: absolute; */
+}
+.img2:hover{
+    z-index: 3;
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    /* position: absolute; */
+}
+
+.img3:hover{
+    z-index: 4;
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    /* position: absolute; */
+}
+/*latest_released*/
+#latest_release{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.leatest_released_div{
+    width: 10rem;
+    height: auto;
+    display: flex;
+    margin: 3rem;
+    
+}
+.latest_released_img i{
+    left:300px;
+}
+#latest_release span{
+    font-weight: bold;
+}
+.latest_released_img span{
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.latest_released_img img{
+    height: 150px;
+    left: 30px;
+}
+.latest_released_img{
+    padding-left: 70px;
+    width: 50%;
+    display: flex;
+    left: 30px;
+}
+/*Popular artist*/
+#popular_artist{
+    list-style: none;
+    display: inline-block;   
+}
+.popular_artist_img {
+    display: inline-block;
+}
+.popular_artist_img  img{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.popular_artist_img img:hover{
+    box-shadow:5px 10px 8px 10px #888888;
+    cursor: pointer;
+}
+/*top station*/
+.opacity{
+    opacity: 0.6;
+}
+.position1{
+    position: relative;
+}
+.position{
+    position: relative;
+    top: -121px;
+    left: 45px;
+}
+#station{
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+}
+#radio{
+    font-size: 30px;
+    color: white;
+    font-weight:bold ;
+}
+#EMD{
+    font-size: 30px;
+    color: white;
+    font-weight:bold ;
+}
+#Electronic{
+    font-size: 30px;
+    color: white;
+    font-weight:bold ;
+    cursor: pointer;
+}
+#Disco{
+    font-size: 30px;
+    color: white;
+    font-weight:bold ;
+}
+/*Queue */
+/* aside{
+	display: inline-block;
+    vertical-align: top;
+    height: 60rem;
+    width: 28%;
+    border:2px solid white;
+    overflow-y: scroll;
+} */
+.Queue_div{
+    width: 25%;
+    display: flex;
+    border: 2px solid black;
+}
+aside{
+    width: 30%;
+    background-color: rgb(233, 198, 185);
+    margin-top: 10px;
+    height: 40rem;
+}
+.Queue_img{
+    height: 82px;
+    width: 82px;
+    margin-left: 9px;
+}
+.song_name{
+    font-weight: bold;
+    color: lightblue;
+    font-size: 25px;
+}
+.right{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#queue_section{
+}
+.dot{
+    margin-left: 140px;
+    margin-top: 20px;
+}
+#recently_num{
+    margin-top: 40px;
+}
+#recently_played_img{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+#similar_artist_div{
+    display: flex;
+    width: auto ;
+    height: 100px;
+    margin-left: 10px;
+}
+/*bottom*/
+footer{
+	width:100%;
+	height:auto;
+	grid-area: foot;
+	/*grid-template-columns: 232px auto 232px ;
+	grid-template-rows: */
+	background-color:#383636;
+	padding: 0px 16px;
+	align-items: center;
+    z-index:10;
+    margin-top: 0px;
+    display: flex;
+
+}
+#bottom_img{
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+#bottom_div{
+    display: flex;
+    margin-top: -100px;
+    margin-left:-15px;
+    background: grey;
+}
+.dist{
+    margin-left: 10px;
+}
+.prohibit{
+    margin-top: 20px;
+    padding: 7px;
+}
+.player_div{
+    margin-left: 390px;
+    padding: 10px;
+    margin-top: 20px;
+    word-spacing: 10px;
+}
+.list_div{
+    margin-left: 320px;
+    padding: 10px;
+    margin-top: 20px;
+    word-spacing: 10px;
+}
+@media screen and (max-width:600px){
+    main{
+    display: block;
+    }
+ }
+@media screen and (max-width:600px){
+    aside{
+        width:100%;
+        vertical-align: bottom;
+    }
+} 
+@media screen and (max-width:600px){
+
+    #new_released_div img{
+        width: 160px;
+        height: 80px;
+    }
+        .img1{
+        z-index: 0;
+        position: relative;
+        left:30px;
+    }
+    .img2{
+        height:100px;
+        z-index: 1;
+        position: relative;
+    }
+    .img3{
+        z-index: 0;
+        position: relative;
+        right:30px;
+    }
+    .img1:hover{
+        z-index: 2;
+        height:200px;
+        width: 160px;
+        box-shadow:5px 10px 8px 10px #888888;
+        /* position: absolute; */
+    }
+    .img2:hover{
+        z-index: 3;
+        height: 200px;
+        width: 160px;
+        box-shadow: 5px 10px 8px 10px #888888;
+        /* position: absolute; */
+    }
+    
+    .img3:hover{
+        z-index: 4;
+        height: 200px;
+        width: 160px;
+        box-shadow: 5px 10px 8px 10px #888888;
+        /* position: absolute; */
+    }
+}
